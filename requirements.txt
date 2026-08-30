@@ -1,0 +1,11 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+python-jose[cryptography]==3.5.0
+python-multipart==0.0.20
+pydantic==2.11.7
+pandas==2.3.2
+numpy
+matplotlib==3.10.5
+seaborn==0.13.2
+jupyter==1.1.1
+kagglehub==0.3.12
