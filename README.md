@@ -17,6 +17,8 @@ Ele foi escolhido porque relaciona diretamente atendimento ao cliente, classific
 
 ### Rotas
 
-| GET  | `/health`     | public     | verifica disponibilidade       |
-| POST | `/auth/token` | public     | autentica admin e gera JWT     |
-| POST | `/predict`    | Bearer JWT | recebe texto e simula intenção |
+| Método | Rota | Acesso | Descrição |
+|---|---|---|---|
+| GET | `/health` | Público | Verifica disponibilidade |
+| POST | `/auth/token` | Público | Autentica o admin e gera JWT |
+| POST | `/predict` | Bearer JWT | Recebe texto e simula intenção |
