@@ -7,7 +7,6 @@ router = APIRouter(tags=["Prediction"])
 
 
 def deterministic_intent(text: str) -> str:
-    # Simulação propositalmente simples do futuro modelo de ML.
     normalized = text.lower()
     if any(term in normalized for term in ["reembolso", "refund", "devolver", "dinheiro de volta"]):
         return "refund_request"
