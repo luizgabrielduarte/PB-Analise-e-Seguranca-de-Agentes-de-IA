@@ -1,0 +1,1 @@
+Como comentado no scan passivo do TP2, os únicos alertas são devido a natureza da página docs. O ZAP não encontrou vulnerabilidades válidas.
